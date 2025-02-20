@@ -1,0 +1,12 @@
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/bin/Debug/net6.0/OutSystems.JwtGenerator.deps.json
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/bin/Debug/net6.0/OutSystems.JwtGenerator.dll
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/bin/Debug/net6.0/OutSystems.JwtGenerator.pdb
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/obj/Debug/net6.0/OutSystems.JwtGenerator.csproj.AssemblyReference.cache
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/obj/Debug/net6.0/OutSystems.JwtGenerator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/obj/Debug/net6.0/OutSystems.JwtGenerator.AssemblyInfoInputs.cache
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/obj/Debug/net6.0/OutSystems.JwtGenerator.AssemblyInfo.cs
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/obj/Debug/net6.0/OutSystems.JwtGenerator.csproj.CoreCompileInputs.cache
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/obj/Debug/net6.0/OutSystems.JwtGenerator.dll
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/obj/Debug/net6.0/refint/OutSystems.JwtGenerator.dll
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/obj/Debug/net6.0/OutSystems.JwtGenerator.pdb
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/obj/Debug/net6.0/ref/OutSystems.JwtGenerator.dll

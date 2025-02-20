@@ -1,0 +1,9 @@
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/bin/Release/net8.0/linux-x64/publish/OutSystems.JwtGenerator.dll
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/bin/Release/net8.0/linux-x64/publish/OutSystems.JwtGenerator.deps.json
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/bin/Release/net8.0/linux-x64/publish/OutSystems.JwtGenerator.pdb
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/bin/Release/net8.0/linux-x64/publish/BouncyCastle.Crypto.dll
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/bin/Release/net8.0/linux-x64/publish/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/bin/Release/net8.0/linux-x64/publish/Microsoft.IdentityModel.Logging.dll
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/bin/Release/net8.0/linux-x64/publish/Microsoft.IdentityModel.Tokens.dll
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/bin/Release/net8.0/linux-x64/publish/OutSystems.ExternalLibraries.SDK.dll
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/bin/Release/net8.0/linux-x64/publish/System.IdentityModel.Tokens.Jwt.dll

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "dgSpecHash": "3jZ6GPJLNok=",
+  "success": true,
+  "projectFilePath": "/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/OutSystems.JwtGenerator.csproj",
+  "expectedPackageFiles": [
+    "/Users/dietervennekens/.nuget/packages/bouncycastle.netcore/1.9.0/bouncycastle.netcore.1.9.0.nupkg.sha512",
+    "/Users/dietervennekens/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/dietervennekens/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.15.1/microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
+    "/Users/dietervennekens/.nuget/packages/microsoft.identitymodel.logging/6.15.1/microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "/Users/dietervennekens/.nuget/packages/microsoft.identitymodel.tokens/6.15.1/microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "/Users/dietervennekens/.nuget/packages/outsystems.externallibraries.sdk/1.3.1/outsystems.externallibraries.sdk.1.3.1.nupkg.sha512",
+    "/Users/dietervennekens/.nuget/packages/system.identitymodel.tokens.jwt/6.15.1/system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "/Users/dietervennekens/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "OutSystems.JwtGenerator depends on BouncyCastle.NetCore (>= 1.8.12) but BouncyCastle.NetCore 1.8.12 was not found. An approximate best match of BouncyCastle.NetCore 1.9.0 was resolved.",
+      "libraryId": "BouncyCastle.NetCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.15.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
