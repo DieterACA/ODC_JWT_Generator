@@ -1,6 +1,27 @@
 JwtGenerator: Basic version
 ---------------------------
 
+### Overview
+
+Enables creation of a valid & signed token based on a SA key file in OutSystems Developer Cloud (ODC).
+
+This component can be used together with other libraries such as;
+
+-Google Calendar Integration Service
+
+-Google Drive Integration
+-...
+to generate the needed token for authentication.
+
+
+
+To sign the token a SA key file is needed which contains the private key in the following format:
+-----BEGIN PRIVATE KEY-----
+your private key
+-----END PRIVATE KEY-----
+
+
+
 ### Prerequisites
 
 *   .NET 8.0 SDK installed.
