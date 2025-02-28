@@ -22,13 +22,13 @@ your private key
 
 
 
-### Prerequisites
+### Prerequisites for component adaptation
 
 *   .NET 8.0 SDK installed.
 *   An IDE that supports building .NET 8 projects. For example, Visual Studio, Visual Studio Code,... .
 *   Basic knowledge of C# programming concepts.
 
-### Usage
+### Component adaptation
 
 1.  Load the C# project file, `OutSystems.JwtGenerator.csproj`, using a supported IDE.
     
