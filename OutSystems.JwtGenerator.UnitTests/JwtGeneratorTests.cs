@@ -10,7 +10,7 @@ public class JwtGeneratorTests
     {
         var jwtGenerator = new JwtGenerator();
 
-        var bytes = File.ReadAllBytes("/Users/michielsioen/Downloads/JwtGenerator/private-key.pem");
+        var bytes = File.ReadAllBytes("Downloads/JwtGenerator/private-key.pem");
         
         var base64SaKeyFile = Convert.ToBase64String(bytes);
         var saEmail = string.Empty;
