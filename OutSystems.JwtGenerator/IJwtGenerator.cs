@@ -22,8 +22,8 @@ public interface IJwtGenerator {
        /// <returns>A JWT token in string format</returns>
      [OSAction(Description = "Generate new JWT token signed with Sa key. The Key file needs to be in base 64 format and should contain private key marked with -----BEGIN PRIVATE KEY-----", ReturnName = "JwtToken")]
     
-        public string GenerateJwtFromBase64(string base64SaKeyFile, string saEmail, string audience, int expiryLength, string scope, string? subject);
-        public string GenerateJwtFromPemString(string pemString, string saEmail, string audience, int expiryLength, string scope, string? subject);
+        public string GenerateJwtFromBase64(string base64SaKeyFile, string saEmail, string audience, int expiryLength, string scope);
+        public string GenerateJwtFromPemString(string pemString, string saEmail, string audience, int expiryLength, string scope);
         
     }
 }

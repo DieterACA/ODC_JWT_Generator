@@ -14,12 +14,12 @@ namespace OutSystems.JwtGenerator
 {
     public class JwtGenerator : IJwtGenerator
     {
-        public string GenerateJwtFromBase64(string base64SaKeyFile, string saEmail, string audience, int expiryLength, string scope, string? subject = null)
+        public string GenerateJwtFromBase64(string base64SaKeyFile, string saEmail, string audience, int expiryLength, string scope)
         {
             try
             {
                 string pem = Encoding.UTF8.GetString(Convert.FromBase64String(base64SaKeyFile));
-                return GenerateJwtInternal(pem, saEmail, audience, expiryLength, scope, subject);
+                return GenerateJwtInternal(pem, saEmail, audience, expiryLength, scope);
             }
             catch (FormatException ex)
             {
@@ -27,9 +27,9 @@ namespace OutSystems.JwtGenerator
             }
         }
 
-        public string GenerateJwtFromPemString(string pemString, string saEmail, string audience, int expiryLength, string scope, string? subject = null)
+        public string GenerateJwtFromPemString(string pemString, string saEmail, string audience, int expiryLength, string scope)
         {
-            return GenerateJwtInternal(pemString, saEmail, audience, expiryLength, scope, subject);
+            return GenerateJwtInternal(pemString, saEmail, audience, expiryLength, scope);
         }
 
         public bool ValidatePublicKeyMatchesPrivate(string privateKeyPem, string publicKeyPem)
@@ -59,7 +59,7 @@ namespace OutSystems.JwtGenerator
             return true;
         }
 
-        private string GenerateJwtInternal(string pemKey, string saEmail, string audience, int expiryLength, string scope, string? subject)
+        private string GenerateJwtInternal(string pemKey, string saEmail, string audience, int expiryLength, string scope)
         {
             var now = DateTimeOffset.UtcNow;
             var exp = now.AddSeconds(expiryLength);
@@ -79,10 +79,6 @@ namespace OutSystems.JwtGenerator
                     expires: exp.UtcDateTime,
                     issuedAt: now.UtcDateTime
                 );
-
-                jwtPayload.Add("scope", scope);
-                if (!string.IsNullOrEmpty(subject))
-                    jwtPayload.Add("sub", subject);
 
                 var token = new JwtSecurityToken(header, jwtPayload);
                 var jwtString = new JwtSecurityTokenHandler().WriteToken(token);
