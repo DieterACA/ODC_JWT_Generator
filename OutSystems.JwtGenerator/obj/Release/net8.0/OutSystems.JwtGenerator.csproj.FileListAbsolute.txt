@@ -10,3 +10,4 @@
 /Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/obj/Release/net8.0/refint/OutSystems.JwtGenerator.dll
 /Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/obj/Release/net8.0/OutSystems.JwtGenerator.pdb
 /Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/obj/Release/net8.0/ref/OutSystems.JwtGenerator.dll
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/obj/Release/net8.0/OutSystems.JwtGenerator.sourcelink.json

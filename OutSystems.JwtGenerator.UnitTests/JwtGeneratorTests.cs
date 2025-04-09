@@ -10,7 +10,7 @@ public class JwtGeneratorTests
     {
         var jwtGenerator = new JwtGenerator();
 
-        var bytes = File.ReadAllBytes("/Users/michielsioen/Downloads/JwtGenerator/private-key.pem");
+        var bytes = File.ReadAllBytes("/JwtGenerator/private-key.pem");
         
         var base64SaKeyFile = Convert.ToBase64String(bytes);
         var saEmail = string.Empty;
@@ -18,7 +18,7 @@ public class JwtGeneratorTests
         var expiryLength = 1000;
         var scope = string.Empty;
 
-        var jwt = jwtGenerator.GenerateJwt(base64SaKeyFile, saEmail, audience, expiryLength, scope);
+        var jwt = jwtGenerator.GenerateJwtFromBase64(base64SaKeyFile, saEmail, audience, expiryLength, scope);
         Assert.NotNull(jwt);
     }
 

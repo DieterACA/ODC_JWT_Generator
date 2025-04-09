@@ -13,14 +13,17 @@ public interface IJwtGenerator {
         /// This method is exposed as a server action to your ODC apps and libraries.
         /// </summary>
         /// <param name="base64SaKeyFile">Key file in base 64 format. Should contain private key marked with -----BEGIN PRIVATE KEY-----</param>
+        /// <param name="pemString">Key file in string format. Should contain private key marked with -----BEGIN PRIVATE KEY-----</param>
         /// <param name="saEmail">Email to be included in token</param>
         /// <param name="audience">Audience to be included in token</param>
         /// <param name="expiryLength">Validity of token in seconds</param>
-       /// <param name="scope">Scope to be included in token</param>
+        /// <param name="scope">Scope to be included in token</param>
+        /// <param name="subject">subject to be included in token</param>
        /// <returns>A JWT token in string format</returns>
      [OSAction(Description = "Generate new JWT token signed with Sa key. The Key file needs to be in base 64 format and should contain private key marked with -----BEGIN PRIVATE KEY-----", ReturnName = "JwtToken")]
     
-        public string GenerateJwt(string base64SaKeyFile, string saEmail, string audience, int expiryLength, string scope);
+        public string GenerateJwtFromBase64(string base64SaKeyFile, string saEmail, string audience, int expiryLength, string scope, string? subject);
+        public string GenerateJwtFromPemString(string pemString, string saEmail, string audience, int expiryLength, string scope, string? subject);
         
     }
 }

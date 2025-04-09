@@ -104,3 +104,4 @@
 /Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator.UnitTests/obj/Release/net8.0/linux-x64/OutSystems.JwtGenerator.UnitTests.pdb
 /Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator.UnitTests/obj/Release/net8.0/linux-x64/OutSystems.JwtGenerator.UnitTests.genruntimeconfig.cache
 /Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator.UnitTests/obj/Release/net8.0/linux-x64/ref/OutSystems.JwtGenerator.UnitTests.dll
+/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator.UnitTests/obj/Release/net8.0/linux-x64/OutSystems.JwtGenerator.UnitTests.sourcelink.json
