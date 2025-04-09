@@ -79,7 +79,8 @@ namespace OutSystems.JwtGenerator
                     expires: exp.UtcDateTime,
                     issuedAt: now.UtcDateTime
                 );
-
+                
+                jwtPayload.Add("scope", scope);
                 var token = new JwtSecurityToken(header, jwtPayload);
                 var jwtString = new JwtSecurityTokenHandler().WriteToken(token);
 
