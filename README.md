@@ -4,6 +4,7 @@ JwtGenerator: Basic version
 ### Overview
 
 Enables creation of a valid & signed token based on a SA key file in OutSystems Developer Cloud (ODC).
+Supported format: base64 and text string.
 
 This component can be used together with other libraries such as;
 
@@ -34,9 +35,9 @@ your private key
     
     Files in the project:
     
-    *   **IJwtGenerator.cs**: Defines a public interface named `IJwtGenerator`, decorated with the `OSInterface` attribute. The interface has a single method named `GenerateJwt`, which takes an PEM key file in base 64 string value, a saEmail in string value, a audience in string value, a expirylength in integer value and a scope in string value as input and returns an `JWT token` string. `GenerateJwt` is exposed as a server action to your ODC apps and libraries.
+    *   **IJwtGenerator.cs**: Defines a public interface named `IJwtGenerator`, decorated with the `OSInterface` attribute. The interface has a method named `GenerateJwtFromBase64`, which takes an PEM key file in base 64 string value, a saEmail in string value, a audience in string value, a expirylength in integer value and a scope in string value as input and returns an `JWT token` string. And method named `GenerateJwtFromPemString` which has the same funcationality but frome a Pem key in string value. Both `GenerateJwt` functions are exposed as server actions to your ODC apps and libraries.
         
-    *   **JwtGenerator.cs**: Defines a public class named `JwtGenerator` that implements the `JwtGenerator` interface. The class is a convenient wrapper for several cyrptographic librarys, that provide functionality for generating a valid Jwt token. The class has a public action named `GenerateJwt`, which is an instance of the `IJwtGenerator` interface.
+    *   **JwtGenerator.cs**: Defines a public class named `JwtGenerator` that implements the `JwtGenerator` interface. The class is a convenient wrapper for several cyrptographic librarys, that provide functionality for generating a valid Jwt token. The class has a public action named `GenerateJwtFromBase64` and `GenerateJwtFromPemString`, which is an instance of the `IJwtGenerator` interface.
         
 2.  Edit the code to meet your use case. If your project requires unit tests, modify the examples found in `../OutSystems.JwtGenerator.UnitTests/JwtGeneratorTests.cs` accordingly.
     
