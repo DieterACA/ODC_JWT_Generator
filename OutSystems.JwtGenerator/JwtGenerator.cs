@@ -66,7 +66,7 @@ namespace OutSystems.JwtGenerator
 
             try
             {
-                using var rsa = GetRsaFromPem(pemKey);
+                var rsa = GetRsaFromPem(pemKey);
                 var credentials = new SigningCredentials(new RsaSecurityKey(rsa), SecurityAlgorithms.RsaSha256);
 
                 var header = new JwtHeader(credentials);
@@ -79,8 +79,11 @@ namespace OutSystems.JwtGenerator
                     expires: exp.UtcDateTime,
                     issuedAt: now.UtcDateTime
                 );
-                
+
+                // Add additional claims: scope 
                 jwtPayload.Add("scope", scope);
+
+                 // Create the JWT token
                 var token = new JwtSecurityToken(header, jwtPayload);
                 var jwtString = new JwtSecurityTokenHandler().WriteToken(token);
 

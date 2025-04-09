@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3jZ6GPJLNok=",
+  "dgSpecHash": "ThyfySHHBoE=",
   "success": true,
   "projectFilePath": "/Users/dietervennekens/Documents/Spike/JWT creation/JwtGenerator/OutSystems.JwtGenerator/OutSystems.JwtGenerator.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,8 @@
       "message": "OutSystems.JwtGenerator depends on BouncyCastle.NetCore (>= 1.8.12) but BouncyCastle.NetCore 1.8.12 was not found. An approximate best match of BouncyCastle.NetCore 1.9.0 was resolved.",
       "libraryId": "BouncyCastle.NetCore",
       "targetGraphs": [
-        "net8.0"
+        "net8.0",
+        "net8.0/linux-x64"
       ]
     },
     {
@@ -31,7 +32,8 @@
       "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.15.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
       "libraryId": "System.IdentityModel.Tokens.Jwt",
       "targetGraphs": [
-        "net8.0"
+        "net8.0",
+        "net8.0/linux-x64"
       ]
     }
   ]

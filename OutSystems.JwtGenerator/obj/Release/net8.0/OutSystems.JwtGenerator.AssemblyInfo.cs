@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OutSystems.JwtGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+613646e3e56c0dd6fd3e3d843df0226b08025b65")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c0008f4b9fb8d91fbaba2942e60ac658566a480")]
 [assembly: System.Reflection.AssemblyProductAttribute("OutSystems.JwtGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OutSystems.JwtGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
